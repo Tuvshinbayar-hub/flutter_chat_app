@@ -30,3 +30,18 @@ doc/api/
 /ios
 /.idea
 /test
+
+# Flutter build outputs
+build/
+**/build/
+*.log
+*.lock
+
+
+# Dart packages cache
+.dart_tool/
+.pub-cache/
+pubspec.lock
+
+lib/firebase_options.dart
+firebase.json
